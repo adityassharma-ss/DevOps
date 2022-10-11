@@ -1,0 +1,5 @@
+apiversion: v1
+kind: ResourceQuota
+metadata:
+  name: compute-quota
+  namespace: dev

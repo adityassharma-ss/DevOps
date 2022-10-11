@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+
+data:
+  db_host: "mysql"
+  db_user: "root"
+  db_password: "pswrd"
+  db_name: "mydb"

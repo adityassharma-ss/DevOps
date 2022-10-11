@@ -1,0 +1,19 @@
+<html>
+   <body>
+      <h1>Hello World</h1>
+
+      <h3>Get message from the other microservice (welcome-service)</h3>
+        {% for category, message in get_flashed_messages(with_categories=true) %}
+        <ul>
+            <li>
+            <div style="color: {{ category }}">{{ message }}</div>
+            </li>
+
+        </ul>
+      {% endfor %}
+        <form action="" method="POST">
+        <input type="submit" name="submit_button" value="Reset">
+        <input type="submit" name="submit_button" value="Get Message">
+        </form>
+   </body>
+</html>
