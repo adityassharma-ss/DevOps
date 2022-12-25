@@ -20,10 +20,10 @@ Kubernetes is a powerful tool that can help you manage and deploy your container
 
 Generally, A K8s YAML config file contains 4 properties
 
-```apiVersion: # Which version of the API you are using
+`apiVersion: # Which version of the API you are using
 kind: # What kind of object you are creating
 metadata: # Data about the object
-spec: # What you want the object to look like```
+spec: # What you want the object to look like`
 
 <h1 align="center">Deployment</h1>
 
@@ -41,7 +41,7 @@ Labels to apply to the deployment and its components (e.g. pods and replicasets)
 
 Here is an example of a deployment configuration for a simple web server:
 
-```apiVersion: apps/v1
+`apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-web-server
@@ -66,7 +66,7 @@ spec:
             memory: 128Mi
           requests:
             cpu: 100m
-            memory: 128Mi```
+            memory: 128Mi`
 
 The above deployment configuration will create a deployment named my-web-server, which will run 3 replicas of the nginx:1.17 container image. Each replica will be allocated 100m CPU and 128Mi memory, and will expose port 80 to the cluster.
 
@@ -78,18 +78,18 @@ ClusterIP: For inter communication of pods
 
 HeadLess: It is a direct communication with a pod. No load blancing is required. So in this ClusterIp is none
 
-```spec:
-  clusterIP: None ```
+`spec:
+  clusterIP: None `
 
 <h1 align="center">ConfigMap</h1>
 Use to store external configurations like database URLs. We put it in simple text format unlike Secrets
 
-```apiVersion: v1
+`apiVersion: v1
 kind: ConfigMap
 metadata:
   name: mongodb-configmap
 data:
-  database_url: mongodb-service```
+  database_url: mongodb-service`
 
 
 
