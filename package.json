@@ -4,6 +4,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "node-sass": "^8.0.0",
-    "react-rough-notation": "^1.0.3"
+    "react-rough-notation": "^1.0.3",
+    "vercel": "^28.10.1"
   }
 }

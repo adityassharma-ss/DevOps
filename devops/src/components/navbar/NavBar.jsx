@@ -2,6 +2,27 @@ import React, { useState } from 'react';
 import NavBar from './NavBar.scss'
 import SearchBox from '../searchbox/SearchBox';
 
+const Nav = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
+  };
+
+  return (
+    <nav className="navbar">
+      <a href="#" className="burger-button" onClick={toggleNav}>
+        &#9776;
+      </a>
+      <div className={`nav-items-container ${isNavOpen ? 'nav-items-container-open' : ''}`}>
+        <ul className="navbar-nav">
+          {/* nav items here */}
+        </ul>
+      </div>
+    </nav>
+  );
+};
+
 const LandingPage = () => {
     const [activeTab, setActiveTab] = useState('home');
     const [searchQuery, setSearchQuery] = useState('');
