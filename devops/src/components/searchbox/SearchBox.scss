@@ -1,0 +1,29 @@
+.navbar {
+  /* Add some spacing above the search box */
+  margin-top: 10px;
+
+  .search-form {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 2px 3px 2px;
+
+    /* Style the search input field with a font, a font size, and a white background color */
+    input {
+      padding: 5px;
+      border: none;
+      font-size: 0.95em;
+      font-family: Arial, sans-serif;
+      background-color: #000000; /* Change the background color to white */
+      color: #ffffff; /* Change the text color to black */
+      text-decoration-color: azure;
+
+      /* Add some visual effects when the input field is hovered or focused */
+      &:hover,
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgb(3, 125, 163);
+      }
+    }
+  }
+}
