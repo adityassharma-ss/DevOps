@@ -76,7 +76,7 @@ const HomePage = () => {
                 <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/KubeScape" target="_blank">Commands</a></li>
             </ul>
             <ul>
-                <h2 align='left'>Helm</h2>
+                <h2 align='left'>Help</h2>
                 <li><a href="" target="_blank">Notes</a></li>
                 <li><a href="" target="_blank">Commands</a></li>
             </ul>
