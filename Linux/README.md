@@ -1,3 +1,13 @@
+<h1 align="center"> LINUX </h1>
+
+Linux is a free and open-source operating system that is widely used on a variety of devices, including personal computers, servers, and embedded systems. It is based on the Linux kernel, which is a piece of software that manages the communication between the hardware and software on a device.
+
+Linux is known for its stability, security, and flexibility, which makes it a popular choice for use in a variety of settings, including enterprise environments and scientific computing. It is also used extensively in the development of web servers, databases, and other applications.
+
+One of the key features of Linux is that it is a multiuser operating system, which means that multiple users can log in to a single device and work independently of each other. It also supports a wide range of hardware platforms, making it easy to use on a variety of devices.
+
+Linux is developed and maintained by a global community of volunteers and is released under the GNU General Public License (GPL), which allows users to freely modify and distribute the software. As a result, there are many different versions of Linux available, known as distributions, which are tailored to meet the needs of different users. Some of the most popular Linux distributions include Ubuntu, Debian, and CentOS.
+
 <h1 align="center">Linux Commands</h1>
 
 ### List operation
