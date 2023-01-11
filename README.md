@@ -12,7 +12,7 @@ Here, you will find various work samples and notes on various aspects of DevOps 
 
 I hope that by sharing my progress and learning, I can provide additional resources and help others in their own journey to understand and implement DevOps practices.
 
-Also, You can find all my work samples hosted on my react web app https://example.com/ feel free to check it out for more details and insights
+Also, You can find all my work samples hosted on my react web app https://devops-phi.vercel.app/ feel free to check it out for more details and insights
 
 Please feel free to peruse this repository and to reach out to me if you have any questions or feedback. I would love to hear from you and see how we can learn and grow together!
 
