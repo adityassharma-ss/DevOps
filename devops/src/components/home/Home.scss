@@ -46,8 +46,21 @@
     right: 0;
     margin: 1em;
     font-size: 0.7em;
+    transition: all 0.2s ease;
+    
+    
   }
-  
+
+  .github-icon:hover {
+    /* change some styles when the cursor is hovering over the icon */
+    transform: rotate(360deg); /* rotation animation */
+    filter: brightness(1.5); /* increase the brightness of icon */
+    color: #28a4d9;
+    transform-style: flat;
+    
+}
+
+
 
   .hover-text {
     /* styles for the text when not hovered over */
@@ -62,11 +75,26 @@
   }
 
   .home-page-content-tab{
-    margin-left: -292px;
     padding: 15px;
     margin-top: 41px;
+    color: rgb(227, 107, 8);
+
+  }
+
+  .orange-text {
+    color: rgb(33, 116, 184);
+  }
+
+  .orange-text:hover {
+    color: rgb(228, 174, 14);
+    text-decoration: none;
+  }
+
+  .bullet-points {
+    list-style: disc;
     color: #fff;
   }
+  
 
   .stage-cube-cont {
     width: 50%;
