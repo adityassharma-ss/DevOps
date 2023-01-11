@@ -14,11 +14,19 @@
     .navbar {
         margin-top: 20px;
       width: 200px;
+      
       border-right: #fff solid 1px;
+      top: 0px;
+      bottom: 0;
   
       /* Add a semi-transparent background color to the navbar */
       background-color: rgba(0, 0, 0, 0.8);
       color: #fff;
+      overflow: auto;
+      position: fixed;
+      height: 100%;
+      overflow-y: scroll;
+
   
       .navbar-nav {
         list-style: none;
