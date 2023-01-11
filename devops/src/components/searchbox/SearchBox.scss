@@ -7,6 +7,9 @@
     align-items: center;
     position: relative;
     padding: 2px 3px 2px;
+    border-radius: 5px;
+    background-color: #000000; /* Change the background color to white */
+    color: #ffffff; /* Change the text color to black */
 
     /* Style the search input field with a font, a font size, and a white background color */
     input {

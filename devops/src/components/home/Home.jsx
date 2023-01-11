@@ -27,74 +27,74 @@ const HomePage = () => {
           <div className="home-page-content-tab">
             <ul  class="bullet-points">
                 <h2 align='left' style={{color: "white"}}>Git</h2>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Git" target="_blank" class="orange-text">Notes</a></li>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Git/GitCommands" target="_blank" class="orange-text">Commands</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Git" target="_blank" rel="noreferrer" class="orange-text">Notes</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Git/GitCommands" rel="noreferrer" target="_blank" class="orange-text">Commands</a></li>
             </ul>
             <ul  class="bullet-points">
                 <h2 align='left' style={{color: "white"}}>Docker</h2>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Docker" target="_blank" class="orange-text">Notes</a></li>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Docker/Commands" target="_blank" class="orange-text">Commands</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Docker" target="_blank" rel="noreferrer" class="orange-text">Notes</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Docker/Commands" target="_blank" rel="noreferrer" class="orange-text">Commands</a></li>
             </ul>
             <ul  class="bullet-points">
                 <h2 align='left' style={{color: "white"}}>Kubernetes</h2>
-                <li><a href="" target="_blank" class="orange-text">Notes</a></li>
-                <li><a href="" target="_blank" class="orange-text">Commands</a></li>
+                <li><a href="" target="_blank" rel="noreferrer" class="orange-text">Notes</a></li>
+                <li><a href="" target="_blank" rel="noreferrer" class="orange-text">Commands</a></li>
             </ul>
             <ul  class="bullet-points">
                 <h2 align='left' style={{color: "white"}}>Networking</h2>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Kubernetes" target="_blank" class="orange-text">Notes</a></li>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Kubernetes/commands" target="_blank" class="orange-text">Commands</a></li>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Kubernetes/scripts" target="_blank" class="orange-text">Scripts</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Kubernetes" target="_blank" rel="noreferrer" class="orange-text">Notes</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Kubernetes/commands" target="_blank" rel="noreferrer" class="orange-text">Commands</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Kubernetes/scripts" target="_blank" rel="noreferrer" class="orange-text">Scripts</a></li>
             </ul>
             <ul  class="bullet-points">
                 <h2 align='left' style={{color: "white"}}>Linux</h2>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Linux" target="_blank" class="orange-text">Notes</a></li>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Linux" target="_blank" class="orange-text">Commands</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Linux" target="_blank" rel="noreferrer" class="orange-text">Notes</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Linux" target="_blank" rel="noreferrer" class="orange-text">Commands</a></li>
             </ul>
             <ul  class="bullet-points">
                 <h2 align='left' style={{color: "white"}}>YAML</h2>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/YAML" target="_blank" class="orange-text">Notes</a></li>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/YAML" target="_blank" class="orange-text">Codes</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/YAML" target="_blank" rel="noreferrer" class="orange-text">Notes</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/YAML" target="_blank" rel="noreferrer" class="orange-text">Codes</a></li>
             </ul>
             <ul  class="bullet-points">
                 <h2 align='left' style={{color: "white"}}>BASH</h2>
-                <li><a href="" target="_blank" class="orange-text">Notes</a></li>
-                <li><a href="" target="_blank" class="orange-text">Commands</a></li>
+                <li><a href="" target="_blank"rel="noreferrer"  class="orange-text">Notes</a></li>
+                <li><a href="" target="_blank" rel="noreferrer" class="orange-text">Commands</a></li>
             </ul>
             <ul  class="bullet-points">
                 <h2 align='left' style={{color: "white"}}>Pods</h2>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Pods" target="_blank" class="orange-text">Notes</a></li>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Pods" target="_blank" class="orange-text">Examples</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Pods" target="_blank" rel="noreferrer" class="orange-text">Notes</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/Pods" target="_blank" rel="noreferrer" class="orange-text">Examples</a></li>
             </ul>
             <ul  class="bullet-points">
                 <h2 align='left' style={{color: "white"}}>MicroServices CI/CD</h2>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/microservices-ci-cd-example-main" target="_blank" class="orange-text">Notes</a></li>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/microservices-ci-cd-example-main" target="_blank" class="orange-text">Examples</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/microservices-ci-cd-example-main" target="_blank" rel="noreferrer" class="orange-text">Notes</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/microservices-ci-cd-example-main" target="_blank" rel="noreferrer"  class="orange-text">Examples</a></li>
             </ul>
             <ul  class="bullet-points">
                 <h2 align='left' style={{color: "white"}}>KubeScape</h2>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/KubeScape" target="_blank" class="orange-text">Notes</a></li>
-                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/KubeScape" target="_blank" class="orange-text">Commands</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/KubeScape" target="_blank" rel="noreferrer" class="orange-text">Notes</a></li>
+                <li><a href="https://github.com/adityassharma-ss/DevOps/tree/main/KubeScape" target="_blank" rel="noreferrer" class="orange-text">Commands</a></li>
             </ul>
             <ul  class="bullet-points">
                 <h2 align='left' style={{color: "white"}}>Helm</h2>
-                <li><a href="" target="_blank" class="orange-text">Notes</a></li>
-                <li><a href="" target="_blank" class="orange-text">Commands</a></li>
+                <li><a href="" target="_blank" rel="noreferrer" class="orange-text">Notes</a></li>
+                <li><a href="" target="_blank" rel="noreferrer" class="orange-text">Commands</a></li>
             </ul>
             <ul  class="bullet-points">
                 <h2 align='left' style={{color: "white"}}>GitOps</h2>
-                <li><a href="" target="_blank" class="orange-text">Notes</a></li>
-                <li><a href="" target="_blank" class="orange-text">Commands</a></li>
+                <li><a href="" target="_blank" rel="noreferrer" class="orange-text">Notes</a></li>
+                <li><a href="" target="_blank" rel="noreferrer" class="orange-text">Commands</a></li>
             </ul>
             <ul  class="bullet-points">
                 <h2 align='left' style={{color: "white"}}>Argo CD</h2>
-                <li><a href="" target="_blank" class="orange-text">Notes</a></li>
-                <li><a href="" target="_blank" class="orange-text">Commands</a></li>
+                <li><a href="" target="_blank" rel="noreferrer" class="orange-text">Notes</a></li>
+                <li><a href="" target="_blank" rel="noreferrer" class="orange-text">Commands</a></li>
             </ul>
             <ul  class="bullet-points">
                 <h2 align='left' style={{color: "white"}}>Lens IDE</h2>
-                <li><a href="" target="_blank" class="orange-text">Notes</a></li>
-                <li><a href="" target="_blank" class="orange-text">Commands</a></li>
+                <li><a href="" target="_blank" rel="noreferrer" class="orange-text">Notes</a></li>
+                <li><a href="" target="_blank" rel="noreferrer" class="orange-text">Commands</a></li>
             </ul>
           </div>
 

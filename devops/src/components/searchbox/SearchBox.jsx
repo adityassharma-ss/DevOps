@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import SearchBox from './SearchBox.scss';
-import NavBar from '../navbar/NavBar';
+import './SearchBox.scss';
+
 
 const Search = ({ onSearch }) => {
   const [searchQuery, setSearchQuery] = useState('');
