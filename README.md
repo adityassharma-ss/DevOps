@@ -17,3 +17,5 @@ Also, You can find all my work samples hosted on my react web app https://devops
 Please feel free to peruse this repository and to reach out to me if you have any questions or feedback. I would love to hear from you and see how we can learn and grow together!
 
 Note: You need to add your own web-app link and make any other adjustments to make it fit your purpose, also if you want to add other things to readme that i missed out on.
+
+If you like this website, please give it a ⭐. Your support is greatly appreciated!
