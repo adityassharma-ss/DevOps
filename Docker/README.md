@@ -49,3 +49,4 @@ The [docker documenation](https://docs.docker.com/engine/install/) is amazing an
 ![](Images/Day43_Containers1.png)
 
 Take note before you go ahead and install at the system requirements, [Install Docker Desktop on Windows](https://docs.docker.com/desktop/windows/install/) if you are using macOS including the M1-based CPU architecture you can also take a look at [Install Docker Desktop on macOS](https://docs.docker.com/desktop/mac/install/)
+
