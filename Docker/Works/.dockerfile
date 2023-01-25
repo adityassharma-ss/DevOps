@@ -48,5 +48,4 @@ services:
       MYSQL_PASSWORD: test
     volumes:
       - ./db:/var/lib/mysql
-
       
