@@ -25,7 +25,6 @@ It is a compressed version of the OSI model with only 4 layers. It was developed
 There are majorly 2 main layers in the OSI model:
 Physical Layer
 Data Link Layer
-
 ## Significance of Data Link Layer-
 
 It is used for transferring the data from one node to another node.
