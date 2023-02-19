@@ -19,4 +19,3 @@ Jenkins can be installed on Linux, Windows, or macOS. The installation process v
 3. Start the Jenkins service.
 
 4. Access the Jenkins dashboard.
-5. 
