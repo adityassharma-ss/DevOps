@@ -1,5 +1,6 @@
 <h1 align="center"> LINUX </h1>
 
+
 Linux is a free and open-source operating system that is widely used on a variety of devices, including personal computers, servers, and embedded systems. It is based on the Linux kernel, which is a piece of software that manages the communication between the hardware and software on a device.
 
 Linux is known for its stability, security, and flexibility, which makes it a popular choice for use in a variety of settings, including enterprise environments and scientific computing. It is also used extensively in the development of web servers, databases, and other applications.
