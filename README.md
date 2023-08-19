@@ -18,4 +18,4 @@ Please feel free to peruse this repository and to reach out to me if you have an
 
 Note: You need to add your own web-app link and make any other adjustments to make it fit your purpose, also if you want to add other things to readme that i missed out on.
 
-If you like this website, please give it a ⭐. Your support is greatly appreciated!
+If you like this repository, please give it a ⭐. Your support is greatly appreciated!
