@@ -1,4 +1,4 @@
-<h1 align="center">DevOps</h1>
+<h1 align="center"> DevOps </h1>
 
 Welcome to my DevOps repository! This repository is dedicated to documenting my journey in improving my understanding and knowledge of DevOps practices and tools.
 
