@@ -1,0 +1,48 @@
+image: 'aditya/maven-aditya-docker-agent:v1'
+
+variables:
+  DOCKER_HOST: tcp://docker:2375
+  DOCKER_TLS_CERTDIR: ''
+#  SONAR_HOST_URL: http://[ec2 instance ip]:9000
+#  SONAR_LOGIN: ${SONAR_LOGIN}
+
+# Define the default working directory for the pipeline
+before_script:
+  - cd java-maven-sonar-argocd-helm-k8s/spring-boot-app
+
+stages:   
+  - build
+  - test
+#  - sonarqube
+  - dockerization
+
+build-job:  
+  stage: build
+  script:
+    - echo "Compiling the code..."
+    - mvn clean package
+
+unit-test-job:  
+  stage: test  
+  script:
+    - echo "Running unit tests... This will take about 60 seconds."
+    - mvn test
+
+#code-quality-job:  
+#  stage: sonarqube 
+#  script:
+#    - echo "scanning code"
+#    -  mvn sonar:sonar -Dsonar.host.url=${SONAR_HOST_URL} -Dsonar.login=${SONAR_LOGIN}
+
+docker:
+  stage: dockerization
+  image: docker:19.03
+  services:
+    - name: docker:dind
+
+  script:
+    - whoami
+    - docker build -t gitlab-cicd-demo:latest .
+    - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+    - docker tag gitlab-cicd-demo:latest $DOCKER_USERNAME/gitlab-cicd-demo:latest
+    - docker push $DOCKER_USERNAME/gitlab-cicd-demo:latest
