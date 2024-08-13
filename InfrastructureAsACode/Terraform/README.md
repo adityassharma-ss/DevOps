@@ -1,0 +1,3 @@
+Terraform is an open-source IaC tool that allows you to define and provide data center infrastructure using a declarative configuration language. It is cloud-agnostic and supports a multitude of providers such as AWS, Google Cloud, and Azure. Terraform allows you to manage a wide variety of service providers as well as custom in-house solutions.
+
+Terraform scripts are written in HashiCorp Configuration Language (HCL). This language is human-readable and easy to understand, which makes Terraform scripts easy to write and maintain. Another significant advantage of Terraform is its modularity. You can create modules for different parts of the infrastructure and then reuse these modules across different environments.

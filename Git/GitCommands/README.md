@@ -14,7 +14,6 @@
   
   ```bash
   git branch <new name> # and remain in the current branch 
-  
   git checkout -b <new name> # and switch to the new branch
   git checkout -b <new name> <another branch> # From another branch
   ```
